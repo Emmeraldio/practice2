@@ -1,0 +1,62 @@
+/* Style for the whole body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light background color */
+    color: #333; /* Dark text color for readability */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the registration form */
+.registration-form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 10px; /* Reduced padding */
+    width: 280px; /* Slightly narrower width */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Form title */
+.registration-form h1 {
+    font-size: 18px; /* Smaller font size for the title */
+    margin-bottom: 10px;
+}
+
+/* Form elements spacing */
+form label {
+    font-size: 13px; /* Smaller label text */
+    margin-bottom: 4px;
+    display: block;
+}
+
+form input, form select {
+    width: 100%; /* Full width for inputs */
+    padding: 6px; /* Reduced padding inside inputs */
+    margin-bottom: 10px; /* Reduced margin between inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 13px; /* Reduced font size for inputs */
+}
+
+/* Submit button style */
+form input[type="submit"] {
+    background-color: #007bff; /* Button background color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px; /* Reduced padding */
+    border-radius: 5px;
+    font-size: 14px; /* Slightly smaller font size */
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
